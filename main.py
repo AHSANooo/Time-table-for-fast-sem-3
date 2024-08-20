@@ -1,46 +1,24 @@
-from auth import authenticate_google_sheets
-from data_operations import save_to_csv, save_to_excel, load_csv, load_excel
-from timetable_operations import get_current_and_next_class
-from datetime import datetime
-import pandas as pd
-
-
-def fetch_timetable(sheet):
-    data = {}
-    for day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']:  # Assuming each day has a separate sheet
-        worksheet = sheet.worksheet(day)
-        data[day] = pd.DataFrame(worksheet.get_all_records())
-    return data
+from utils.timetable_scraper import scrape_timetable
+from utils.class_finder import find_current_and_next_class
 
 
 def main():
-    # Step 1: Authenticate and fetch timetable from Google Sheets
-    sheet = authenticate_google_sheets()
-    timetable_data = fetch_timetable(sheet)
+    # URL to the Google Sheets (your timetable link)
+    url = "https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/edit#gid=837984260"
 
-    # Step 2: Save timetable to CSV or Excel
-    save_to_csv(timetable_data)  # Optionally, you can use save_to_excel(timetable_data)
+    # Scrape the timetable
+    df = scrape_timetable(url)
 
-    # Step 3: Load today's timetable
-    current_day = datetime.now().strftime('%A')
-    df = load_csv(current_day)  # Or use load_excel(current_day)
+    # Find the current and next class
+    current_class, next_class = find_current_and_next_class(df)
 
-    if df is not None:
-        # Step 4: Find current and next class
-        current_class, next_class = get_current_and_next_class(df)
-
-        if current_class is not None:
-            print(
-                f"Current Class: {current_class['Class']} in Room {current_class['Room']} from {current_class['Start Time']} to {current_class['End Time']}")
-        else:
-            print("No current class found.")
+    if current_class is not None:
+        print("Current Class:")
+        print(current_class)
 
         if next_class is not None:
-            print(f"Next Class: {next_class['Class']} in Room {next_class['Room']} at {next_class['Start Time']}")
-        else:
-            print("No next class found.")
-    else:
-        print("No data available for today.")
+            print("\nNext Class:")
+            print(next_class)
 
 
 if __name__ == "__main__":
