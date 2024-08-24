@@ -358,3 +358,297 @@ cb@https://static.arxiv.org/MathJax-2.7.3/MathJax.js:19:2819
 Dynamically enable window occlusion 1
 JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
 JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1724172215793	geckodriver	INFO	Listening on 127.0.0.1:50425
+1724172218856	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileAsEeex"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724172219297	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724172219401	Marionette	INFO	Listening on port 50436
+Read port: 50436
+1724172219552	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1724172249433	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+1724172287417	geckodriver	INFO	Listening on 127.0.0.1:50531
+1724172290445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileMlq78j"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724172290806	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724172290906	Marionette	INFO	Listening on port 50541
+Read port: 50541
+1724172291034	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1724172320846	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NotFoundError: Could not move `C:\Users\HP\AppData\Local\Temp\rust_mozprofileMlq78j\bookmarkbackups\bookmarks-2024-08-21.jsonlz4' to `C:\Users\HP\AppData\Local\Temp\rust_mozprofileMlq78j\bookmarkbackups\bookmarks-2024-08-21_11_d-GblUq2pT1qL1HSOJvG1utY2seBgE8kpfhOCM6oSWI=.jsonlz4': source file does not exist (NS_ERROR_FILE_NOT_FOUND)
+1724322657304	geckodriver	INFO	Listening on 127.0.0.1:52701
+1724322660388	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileNwMiG6"
+*** You are running in headless mode.
+1724324033746	geckodriver	INFO	Listening on 127.0.0.1:52830
+1724324036828	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile7YVmc0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324037196	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324037324	Marionette	INFO	Listening on port 52840
+Read port: 52840
+1724324037498	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324047220	Marionette	INFO	Stopped listening on port 52840
+Dynamically enable window occlusion 1
+1724324243971	geckodriver	INFO	Listening on 127.0.0.1:52956
+1724324247011	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofiles8QRWt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324247395	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324247512	Marionette	INFO	Listening on port 52966
+Read port: 52966
+1724324247667	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324256979	Marionette	INFO	Stopped listening on port 52966
+Dynamically enable window occlusion 1
+1724324292183	geckodriver	INFO	Listening on 127.0.0.1:53013
+1724324295229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile2ROLuL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324295565	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324295683	Marionette	INFO	Listening on port 53023
+Read port: 53023
+1724324295844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324304664	Marionette	INFO	Stopped listening on port 53023
+Dynamically enable window occlusion 1
+1724324329090	geckodriver	INFO	Listening on 127.0.0.1:53071
+1724324332112	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileodHiGh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324332441	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324332556	Marionette	INFO	Listening on port 53081
+Read port: 53081
+1724324332713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324337750	Marionette	INFO	Stopped listening on port 53081
+Dynamically enable window occlusion 1
+1724324349337	geckodriver	INFO	Listening on 127.0.0.1:53122
+1724324352383	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileuUsexK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324352713	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324352832	Marionette	INFO	Listening on port 53132
+Read port: 53132
+1724324352987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324356786	Marionette	INFO	Stopped listening on port 53132
+Dynamically enable window occlusion 1
+1724324406895	geckodriver	INFO	Listening on 127.0.0.1:53196
+1724324415379	geckodriver	INFO	Listening on 127.0.0.1:53203
+1724324418443	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilevFYvNY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324418768	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324418899	Marionette	INFO	Listening on port 53213
+Read port: 53213
+1724324419074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324423054	Marionette	INFO	Stopped listening on port 53213
+Dynamically enable window occlusion 1
+1724324427210	geckodriver	INFO	Listening on 127.0.0.1:53254
+1724324430270	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileCb4ScA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324430595	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324430738	Marionette	INFO	Listening on port 53264
+Read port: 53264
+1724324430900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324434605	Marionette	INFO	Stopped listening on port 53264
+Dynamically enable window occlusion 1
+1724324477898	geckodriver	INFO	Listening on 127.0.0.1:53306
+1724324480934	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileyBmj5x"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724324481264	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724324481413	Marionette	INFO	Listening on port 53316
+Read port: 53316
+1724324481579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724324511605	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1724330876434	Marionette	INFO	Stopped listening on port 53316
+Dynamically enable window occlusion 1
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 47: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1724330997972	geckodriver	INFO	Listening on 127.0.0.1:53498
+1724331001017	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileEVvyAR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724331001385	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724331001507	Marionette	INFO	Listening on port 53508
+Read port: 53508
+1724331001656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724331031417	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724331036940	Marionette	INFO	Stopped listening on port 53508
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/search-categorization getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1724331173595	geckodriver	INFO	Listening on 127.0.0.1:53569
+1724331176627	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile1yUrCH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724331177145	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724331177366	Marionette	INFO	Listening on port 53579
+Read port: 53579
+1724331177557	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724331207871	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724331294598	Marionette	INFO	Stopped listening on port 53579
+Dynamically enable window occlusion 1
+
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724331197023	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724331197136	Marionette	INFO	Listening on port 53639
+Read port: 53639
+1724331197301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724331228528	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1724331244265	Marionette	INFO	Stopped listening on port 53639
+Dynamically enable window occlusion 1
+1724331422325	geckodriver	INFO	Listening on 127.0.0.1:53699
+1724331425348	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile6vRHLH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724331425684	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724331425771	Marionette	INFO	Listening on port 53709
+Read port: 53709
+1724331425929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724331435269	Marionette	INFO	Stopped listening on port 53709
+Dynamically enable window occlusion 1
+1724331621505	geckodriver	INFO	Listening on 127.0.0.1:53764
+1724331624554	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileCPba02"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724331624873	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724331624962	Marionette	INFO	Listening on port 53774
+Read port: 53774
+1724331625029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724331635713	Marionette	INFO	Stopped listening on port 53774
+Dynamically enable window occlusion 1
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.sys.mjs", 236))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1724331818502	geckodriver	INFO	Listening on 127.0.0.1:53829
+1724331821548	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile6hXC3P"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724331821875	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724331821977	Marionette	INFO	Listening on port 53839
+Read port: 53839
+1724331822135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724331852895	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724331865409	Marionette	INFO	Stopped listening on port 53839
+Dynamically enable window occlusion 1
+1724332158258	geckodriver	INFO	Listening on 127.0.0.1:53967
+1724332161311	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileVZVTDK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724332161637	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724332161726	Marionette	INFO	Listening on port 53977
+Read port: 53977
+1724332161904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724332187708	Marionette	INFO	Stopped listening on port 53977
+Dynamically enable window occlusion 1
+1724351452463	geckodriver	INFO	Listening on 127.0.0.1:55080
+1724351455555	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofile0WcNJh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724351456027	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724351456140	Marionette	INFO	Listening on port 55090
+Read port: 55090
+1724351456371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724351483613	Marionette	INFO	Stopped listening on port 55090
+Dynamically enable window occlusion 1
+1724352445535	geckodriver	INFO	Listening on 127.0.0.1:55219
+1724352461723	geckodriver	INFO	Listening on 127.0.0.1:55226
+1724352464782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofilenZtNen"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724352465120	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724352465219	Marionette	INFO	Listening on port 55236
+Read port: 55236
+1724352465401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724352473831	Marionette	INFO	Stopped listening on port 55236
+Dynamically enable window occlusion 1
+1724397371875	geckodriver	INFO	Listening on 127.0.0.1:56750
+1724397374982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\HP\\AppData\\Local\\Temp\\rust_mozprofileBCSHgH"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1724397375365	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1724397375463	Marionette	INFO	Listening on port 56800
+Read port: 56800
+1724397375633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
+1724397382796	Marionette	INFO	Stopped listening on port 56800
+Dynamically enable window occlusion 1
