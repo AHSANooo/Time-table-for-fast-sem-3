@@ -652,3 +652,7 @@ JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryU
 JavaScript error: https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWtBHxylhV6k8/htmlview?gid=837984260#, line 62: ReferenceError: posObjs is not defined
 1724397382796	Marionette	INFO	Stopped listening on port 56800
 Dynamically enable window occlusion 1
+1724703752264	geckodriver	INFO	Listening on 127.0.0.1:62008
+1724703850580	geckodriver	INFO	Listening on 127.0.0.1:62017
+1724703935115	geckodriver	INFO	Listening on 127.0.0.1:62052
+1724787669839	geckodriver	INFO	Listening on 127.0.0.1:63282
