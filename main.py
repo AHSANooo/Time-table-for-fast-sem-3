@@ -1,6 +1,8 @@
 import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.firefox.service import Service as FirefoxService
+from webdriver_manager.firefox import GeckoDriverManager
 from bs4 import BeautifulSoup
 import time
 
@@ -9,12 +11,12 @@ url = 'https://docs.google.com/spreadsheets/d/1XA76yuFM_4mtkQW__2fryUBMe5EZ6XMWt
 
 
 def scrape_timetable(url):
-    # Initialize WebDriver
-    driver = webdriver.Firefox()
+    # Initialize WebDriver with GeckoDriverManager for dynamic WebDriver path management
+    driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
     driver.get(url)
 
     # Wait for the page to load
-    #time.sleep(5)
+    time.sleep(5)
 
     # Find the sheet buttons
     sheet_buttons = driver.find_elements(By.CSS_SELECTOR, 'li[id^="sheet-button"] a')
@@ -30,47 +32,49 @@ def scrape_timetable(url):
 
     # Loop through each sheet button and click it
     for button in sheet_buttons:
-        sheet_name = button.text
-        print(f"Switching to sheet: {sheet_name}")
+        sheet_name = button.text.strip()
 
-        try:
-            button.click()
-            #time.sleep(3)  # Wait for the sheet to load
+        if sheet_name.lower() != 'welcome':  # Skip the 'Welcome' sheet
+            print(f"Switching to sheet: {sheet_name}")
 
-            # Parse the new sheet content
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            try:
+                button.click()
+                time.sleep(3)  # Wait for the sheet to load
 
-            # Data containers
-            data = []
+                # Parse the new sheet content
+                soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-            # Correctly identify class name, room number, and time columns
-            course_names = soup.find_all('td', class_='s5')  # Adjust class if necessary
-            room_numbers = soup.find_all('td', class_='s39')  # Adjust class if necessary
-            times = soup.find_all('td', class_='s38')  # Adjust class if necessary
+                # Data containers
+                data = []
 
-            # Loop through and match each row
-            for i in range(len(course_names)):
-                row = {
-                    'Course Name': course_names[i].get_text(strip=True),
-                    'Room Number': room_numbers[i].get_text(strip=True) if i < len(room_numbers) else 'N/A',
-                    'Time': times[i].get_text(strip=True) if i < len(times) else 'N/A'
-                }
-                data.append(row)
+                # Correctly identify class name, room number, and time columns
+                course_names = soup.find_all('td', class_='s5')  # Adjust class if necessary
+                room_numbers = soup.find_all('td', class_='s39')  # Adjust class if necessary
+                times = soup.find_all('td', class_='s38')  # Adjust class if necessary
 
-            # Convert data to DataFrame
-            df = pd.DataFrame(data)
+                # Loop through and match each row
+                for i in range(len(course_names)):
+                    row = {
+                        'Course Name': course_names[i].get_text(strip=True),
+                        'Room Number': room_numbers[i].get_text(strip=True) if i < len(room_numbers) else 'N/A',
+                        'Time': times[i].get_text(strip=True) if i < len(times) else 'N/A'
+                    }
+                    data.append(row)
 
-            # Save data to CSV
-            output_file = f'{sheet_name}_timetable.csv'
-            df.to_csv(output_file, index=False)
-            print(f"Data for sheet '{sheet_name}' has been saved to {output_file}")
+                # Convert data to DataFrame
+                df = pd.DataFrame(data)
 
-            all_sheets_data[sheet_name] = df
+                # Save data to CSV
+                output_file = f'{sheet_name}_timetable.csv'
+                df.to_csv(output_file, index=False)
+                print(f"Data for sheet '{sheet_name}' has been saved to {output_file}")
 
-        except Exception as e:
-            print(f"Failed to switch to sheet {sheet_name}: {e}")
+                all_sheets_data[sheet_name] = df
 
-    # Close the browser
+            except Exception as e:
+                print(f"Failed to switch to sheet {sheet_name}: {e}")
+
+    # Close the browser after processing all sheets
     driver.quit()
 
     return all_sheets_data
